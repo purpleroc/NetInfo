@@ -6,7 +6,7 @@ NetInfo是一个基于开源项目![fping](http://fping.org/dist/)再开发的�
 其实我当时是没想到这答案的，后来想了想，fping的-l选项可以或许可以满足。但输出似乎不太满意。便推荐该同学自己写脚本实现。   
 之后，今天下午看了看fping源码，用拙劣的手段改造了一个出来，希望能满足需求。  
 
-![demo](https://github.com/purpleroc/NetInfo/demo.png)
+![](demo.png)
 
 ##Installation
 克隆NetInfo到本地：
