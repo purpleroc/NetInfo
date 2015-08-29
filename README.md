@@ -6,6 +6,8 @@ NetInfo是一个基于开源项目![fping](http://fping.org/dist/)再开发的�
 其实我当时是没想到这答案的，后来想了想，fping的-l选项可以或许可以满足。但输出似乎不太满意。便推荐该同学自己写脚本实现。   
 之后，今天下午看了看fping源码，用拙劣的手段改造了一个出来，希望能满足需求。  
 
+![demo](https://github.com/purpleroc/NetInfo/demo.png)
+
 ##Installation
 克隆NetInfo到本地：
 
@@ -22,13 +24,15 @@ NetInfo是一个基于开源项目![fping](http://fping.org/dist/)再开发的�
 
 ##Usage
 
-> Usage: ./netinfo [options] [targets...]
+```
+ Usage: ./netinfo [options] [targets...]
    -f file    read list of targets from a file ( - means stdin) (only if no -g specified)
    -g         generate target list (only if no -f specified)
                 (specify the start and end IP in the target list, or supply a IP netmask)
                 (ex. ./netinfo -g 192.168.1.0 192.168.1.255 or ./netinfo -g 192.168.1.0/24)
    -v         show version
    targets    list of targets to check (if no -f specified)
+```
 
 ##Example
 
