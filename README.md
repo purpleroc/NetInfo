@@ -1,7 +1,7 @@
 NetInfo
 ==
 
-NetInfo是一个基于开源项目![fping](http://fping.org/dist/)再开发的小工具。用于linux下实现批量ip存活检测。  
+NetInfo是一个基于开源项目<http://fping.org/dist/>再开发的小工具。用于linux下实现批量ip存活检测。  
 改造NetInfo的动机来源于前几天一个同学问我Linux下有没有类似Windows下的PingInfo View之类的，能够方便运维、网络管理员、网络优化员等对网络在线主机进行实时监控的工具。  
 其实我当时是没想到这答案的，后来想了想，fping的-l选项可以或许可以满足。但输出似乎不太满意。便推荐该同学自己写脚本实现。   
 之后，今天下午看了看fping源码，用拙劣的手段改造了一个出来，希望能满足需求。  
